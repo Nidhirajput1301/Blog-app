@@ -17,15 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 from . import views
-from django.conf.urls import url,include
 
 urlpatterns = [
-    # path(r'^admin/', admin.site.urls),
-    # path(r'^about/$', views.about),
-    # path(r'^$', views.homepage)
-
-    path('admin/', admin.site.urls),
-    path('articles', include('articles.urls')),
-    path('about/', views.about),
-    path('', views.homepage),
+    path('', views.article_list)
 ]
