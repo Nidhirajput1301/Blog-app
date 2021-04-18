@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Articles:
+class Article(models.Model):
   title = models.CharField(max_length=100)
   slug = models.SlugField()
   body = models.TextField()
@@ -10,4 +10,11 @@ class Articles:
 
   # add in thumbnail later
   # add in author later
+
+  def __str__(self):
+    return self.title
+
+# python manage.py makemigrations
+# python manage.py migrate
+
 
