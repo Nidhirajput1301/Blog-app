@@ -4,3 +4,4 @@ admin
 
 normal user
   mario  nidhi1234
+  peach     "
