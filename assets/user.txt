@@ -1,7 +1,0 @@
-admin
- pc test1234
-
-
-normal user
-  mario  nidhi1234
-  peach     "
